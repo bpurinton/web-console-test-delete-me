@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  root "posts#index"
+  resources :posts
 
   # This is a blank app! Pick your first screen, build out the RCAV, and go from there. E.g.:
 
